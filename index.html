@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>کافه تمرکز | Cafe Tamarkoz</title>
+<style>
+:root{--coffee:#4b3024;--deep:#2d211b;--brown:#79543e;--tan:#c49a72;--cream:#f7f0e7;--paper:#fffaf4;--muted:#78695e}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--deep);font-family:Tahoma,"Segoe UI",sans-serif;line-height:1.9}
+a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
+header{position:sticky;top:0;background:rgba(255,250,244,.95);backdrop-filter:blur(10px);z-index:5;border-bottom:1px solid #eadccd}
+nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:13px 0}.brand{font-weight:800;color:var(--coffee);font-size:1.15rem}.brand small{display:block;font-size:.68rem;letter-spacing:2px;direction:ltr;text-align:right;color:var(--brown)}
+.links{display:flex;gap:18px;flex-wrap:wrap;font-size:.9rem;color:var(--muted)}.links a:hover{color:var(--coffee)}
+.btn{display:inline-block;background:var(--coffee);color:white;padding:10px 20px;border-radius:999px;border:0;font:inherit;cursor:pointer}.btn.light{background:var(--tan);color:#281b14}
+.hero{padding:70px 0 65px;background:linear-gradient(110deg,rgba(45,33,27,.92),rgba(75,48,36,.86)),radial-gradient(circle at 20% 20%,#b58b65,#4b3024);color:#fffaf4}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:40px}.eyebrow{color:#e1c3a4;font-size:.9rem}.hero h1{font-size:clamp(2.1rem,5vw,4rem);line-height:1.35;margin:10px 0}.hero p{color:#f0e4d8;max-width:650px}.hero-card{border:1px solid #ffffff40;border-radius:28px;padding:28px;background:#ffffff0d;text-align:center}.cup{font-size:5rem;line-height:1.5}.hero-card strong{display:block;font-size:1.25rem;color:#f0d6ba}
+section{padding:58px 0}.section-head{text-align:center;margin-bottom:30px}.section-head span{color:var(--brown);font-size:.9rem}.section-head h2{margin:3px 0;color:var(--coffee);font-size:2rem}.about{background:var(--paper)}.about p{max-width:850px;margin:auto;text-align:center;color:var(--muted);font-size:1.05rem}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--paper);padding:24px;border-radius:20px;border:1px solid #eadccd;box-shadow:0 8px 25px #3b26100a}.card .emoji{font-size:2rem}.card h3{margin:8px 0;color:var(--coffee)}.card p{margin:0;color:var(--muted);font-size:.94rem}
+.floor{background:#efe3d5}.floor-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.floor-box{background:#fffaf4;border-radius:22px;padding:26px;border-right:5px solid var(--tan)}
+.menu-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.menu-box{background:var(--paper);border:1px solid #eadccd;border-radius:20px;padding:24px}.menu-box h3{color:var(--coffee);margin-top:0}.item{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-bottom:1px dashed #dfcdbb}.item:last-child{border:0}.price{white-space:nowrap;color:var(--brown);font-weight:700}
+.packs{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.pack{background:var(--coffee);color:#fff7ed;padding:22px;border-radius:20px}.pack h3{color:#e6c6a4;margin-top:0}.pack b{font-size:1.1rem;color:#fff}
+.booking{background:var(--deep);color:#fff7ed}.booking .section-head h2{color:#fff7ed}.booking p{color:#e1d2c4;text-align:center}.booking-note{max-width:760px;margin:0 auto;background:#ffffff12;border:1px solid #ffffff2a;border-radius:18px;padding:22px;text-align:center}
+footer{background:#211812;color:#e9d9c9;padding:30px 0;text-align:center;font-size:.9rem}footer small{color:#bda995}
+@media(max-width:760px){.hero-grid,.floor-grid,.menu-grid{grid-template-columns:1fr}.cards,.packs{grid-template-columns:1fr}.links{gap:10px;font-size:.8rem}nav{align-items:flex-start;flex-direction:column}.hero{padding:48px 0}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="brand" href="#home">کافه تمرکز <small>CAFE TAMARKOZ</small></a>
+<div class="links"><a href="#about">درباره ما</a><a href="#services">خدمات</a><a href="#menu">منو</a><a href="#booking">رزرو مطالعه</a></div>
+<a class="btn" href="#booking">آشنایی با ما</a>
+</nav></div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+<div><div class="eyebrow">قهوه، آرامش و فرصتی برای تمرکز</div><h1>کافه تمرکز</h1><p>جایی برای نوشیدن قهوه، مطالعه، پژوهش و افزایش بهره‌وری. تجربه‌ای فراتر از یک کافه؛ فضایی برای آرامش ذهن و تمرکز بیشتر.</p><a class="btn light" href="#services">کشف فضای کافه</a></div>
+<div class="hero-card"><div class="cup">☕</div><strong>فراتر از یک کافه</strong><span>فضایی برای مطالعه و رشد فردی</span><div style="font-size:2rem;margin-top:10px">📖</div></div>
+</div></section>
+<section class="about" id="about"><div class="wrap"><div class="section-head"><span>داستان ما</span><h2>درباره کافه تمرکز</h2></div><p>کافه تمرکز، یک ایده برای ایجاد فضایی دوطبقه و کاربردی است؛ جایی که افراد بتوانند در کنار نوشیدن قهوه و لذت بردن از خوراکی‌های تازه، محیطی آرام برای مطالعه، پژوهش و انجام کارهای روزمره داشته باشند. این مجموعه در مرحله برنامه‌ریزی و طراحی قرار دارد.</p></div></section>
+<section id="services"><div class="wrap"><div class="section-head"><span>آنچه پیش‌بینی کرده‌ایم</span><h2>خدمات کافه تمرکز</h2></div><div class="cards">
+<div class="card"><div class="emoji">☕</div><h3>کافه و پذیرایی</h3><p>ارائه انواع قهوه، چای، نوشیدنی‌های گرم و سرد، کیک و کوکی در فضایی دلنشین در طبقه اول.</p></div>
+<div class="card"><div class="emoji">📚</div><h3>فضای اختصاصی مطالعه</h3><p>طبقه دوم برای مطالعه، پژوهش، انجام پروژه و فعالیت‌های دانشجویی با محیطی آرام در نظر گرفته شده است.</p></div>
+<div class="card"><div class="emoji">💻</div><h3>امکانات مطالعه</h3><p>اینترنت مناسب، میز و صندلی استاندارد، نور کافی و دسترسی به پریز برق برای استفاده از لپ‌تاپ.</p></div>
+</div></div></section>
+<section class="floor"><div class="wrap"><div class="section-head"><span>دو فضا، یک تجربه</span><h2>طراحی دوطبقه</h2></div><div class="floor-grid">
+<div class="floor-box"><h3>طبقه اول | کافه</h3><p>فضایی برای سفارش و صرف قهوه، نوشیدنی، کیک و کوکی؛ مناسب استراحت و گفت‌وگو.</p></div>
+<div class="floor-box"><h3>طبقه دوم | فضای تمرکز</h3><p>محیطی آرام برای مطالعه و پژوهش، با پیش‌بینی امکان درخواست رزرو ساعتی صندلی.</p></div>
+</div></div></section>
+<section id="menu"><div class="wrap"><div class="section-head"><span>پیشنهادهای کافه</span><h2>منو و بسته‌های ویژه</h2><p style="color:var(--muted)">قیمت‌ها پیشنهادی و مربوط به طرح اولیه پروژه هستند.</p></div>
+<div class="menu-grid"><div class="menu-box"><h3>نوشیدنی‌ها</h3>
+<div class="item"><span>اسپرسو تک</span><span class="price">۷۰٬۰۰۰ تومان</span></div><div class="item"><span>اسپرسو دبل</span><span class="price">۹۰٬۰۰۰ تومان</span></div><div class="item"><span>آمریکانو</span><span class="price">۱۲۰٬۰۰۰ تومان</span></div><div class="item"><span>لاته</span><span class="price">۱۳۰٬۰۰۰ تومان</span></div><div class="item"><span>کاپوچینو</span><span class="price">۱۵۰٬۰۰۰ تومان</span></div><div class="item"><span>چای ساده</span><span class="price">۵۵٬۰۰۰ تومان</span></div><div class="item"><span>چای ماسالا</span><span class="price">۱۱۰٬۰۰۰ تومان</span></div>
+</div><div class="menu-box"><h3>کیک و خوراکی</h3>
+<div class="item"><span>کیک قهوه</span><span class="price">۸۵٬۰۰۰ تومان</span></div><div class="item"><span>کیک شکلاتی</span><span class="price">۷۰٬۰۰۰ تومان</span></div><div class="item"><span>کیک هویج و گردو</span><span class="price">۸۰٬۰۰۰ تومان</span></div><div class="item"><span>کوکی</span><span class="price">۵۰ تا ۶۵ هزار تومان</span></div>
+</div></div>
+<div class="packs" style="margin-top:18px"><div class="pack"><h3>پک تمرکز</h3><p>کاپوچینو + کیک قهوه</p><b>۱۹۵٬۰۰۰ تومان</b></div><div class="pack"><h3>پک پژوهش</h3><p>آمریکانو + کیک هویج و گردو یا شکلاتی</p><b>۱۷۵٬۰۰۰ تومان</b></div><div class="pack"><h3>پک اقتصادی</h3><p>چای ساده + کوکی شکلاتی یا گردویی</p><b>۹۵٬۰۰۰ تومان</b></div></div>
+</div></section>
+<section class="booking" id="booking"><div class="wrap"><div class="section-head"><span>به‌زودی</span><h2>رزرو فضای مطالعه</h2></div><div class="booking-note"><p>برای استفاده از فضای اختصاصی مطالعه در طبقه دوم، امکان درخواست رزرو صندلی در طرح کافه پیش‌بینی شده است. جزئیات و زمان آغاز رزرو پس از نهایی شدن راه‌اندازی اعلام خواهد شد.</p><a class="btn light" href="#home">بازگشت به ابتدای صفحه</a></div></div></section>
+</main>
+<footer><div class="wrap"><strong>کافه تمرکز | Cafe Tamarkoz</strong><br>نزدیک دانشگاه آزاد اسلامی کرمان · موقعیت پیشنهادی پروژه<br><small>این وب‌سایت نمونه اولیه و معرفی طرح کسب‌وکار است و کافه هنوز در مرحله برنامه‌ریزی قرار دارد.</small></div></footer>
+</body></html>
